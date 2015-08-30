@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/Avi/GitHub/TileGame/android/assets"><file name="badlogic.jpg" path="/Users/Avi/GitHub/TileGame/android/assets/badlogic.jpg"/><file name="cover.png" path="/Users/Avi/GitHub/TileGame/android/assets/cover.png"/><file name="tile.png" path="/Users/Avi/GitHub/TileGame/android/assets/tile.png"/></source></dataSet><dataSet config="debug"><source path="/Users/Avi/GitHub/TileGame/android/src/debug/assets"/></dataSet></merger>
