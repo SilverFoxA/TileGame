@@ -20,10 +20,10 @@ public class MyActor extends Actor {
 
     public MyActor() {
         //Scaled the image and changed the position
-        sprite.scale(1);
-        sprite.setPosition(100, 0);
-        sprite1.scale(2);
-        sprite1.setPosition(100, 0);
+      //  sprite.scale(1);
+        sprite.setPosition(200, 20);
+        //sprite1.scale(2);
+        sprite1.setPosition(200, 20);
 
         //touchable field for the sprite i.e. for our image
         setBounds(sprite.getX(), sprite.getY(), sprite.getWidth(), sprite.getHeight());
