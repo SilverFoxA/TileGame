@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Avi/GitHub/TileGame/core/build/libs/core-1.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="319ed94576e3c25609f8639314aa40e86be27b19">
+        <dex dex="/Users/Avi/GitHub/TileGame/android/build/intermediates/pre-dexed/debug/core-1.0-604b392618866aabb6869c9807ac232e9bb38c81.jar" />
+    </item>
+
+</items>
