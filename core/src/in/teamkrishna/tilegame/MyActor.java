@@ -4,7 +4,6 @@ package in.teamkrishna.tilegame;
  * Created by Avi on 30/08/15.
  */
 
-import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.Sprite;
@@ -14,32 +13,28 @@ import com.badlogic.gdx.scenes.scene2d.Touchable;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 
 public class MyActor extends Actor {
-    Sprite sprite = new Sprite(new Texture(Gdx.files.internal("badlogic.jpg")));
+    Sprite sprite;
     Sprite sprite1 = new Sprite(new Texture("cover.png"));
     boolean switchbool = false;
 
-    public MyActor() {
-        //Scaled the image and changed the position
-      //  sprite.scale(1);
-        sprite.setPosition(200, 20);
-        //sprite1.scale(2);
-        sprite1.setPosition(200, 20);
-
+    public MyActor(Sprite sprite, int x, int y) {
+        this.sprite = sprite;
+        sprite.setPosition(x, y);
         //touchable field for the sprite i.e. for our image
         setBounds(sprite.getX(), sprite.getY(), sprite.getWidth(), sprite.getHeight());
         setTouchable(Touchable.enabled);
-
+        sprite1.setPosition(sprite.getX(), sprite.getY());
         //make sure to use the "ClickListener()" and within it the "Clicled()"
         addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
                 System.out.println("Clickeed");
-
                 //Simple boolean operation
-                if (!switchbool)
+                if (!switchbool) {
                     switchbool = true;
-                else
-                    switchbool = false;
+                }
+//                else
+//                    switchbool = false;
                 super.clicked(event, x, y);
             }
         });
@@ -55,10 +50,9 @@ public class MyActor extends Actor {
     @Override
     public void draw(Batch batch, float parentAlpha) {
         sprite.draw(batch);
-
-        //By default the badlogic image is set if boolean is true use the cover
-        if (switchbool)
+        if (!switchbool) {
             sprite1.draw(batch);
+        }
     }
 
     @Override

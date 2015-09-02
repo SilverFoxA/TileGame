@@ -4,7 +4,43 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36f004c1-af1f-4936-ac48-fa9288dc5e7b" name="Default" comment="ClickListener option has been added to images" />
+    <list default="true" id="36f004c1-af1f-4936-ac48-fa9288dc5e7b" name="Default" comment="scaling factor removed">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/elephant.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/elephant.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/assets/badlogic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/assets/tile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/build/classes/main/in/teamkrishna/tilegame/desktop/DesktopLauncher.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/build/libs/desktop-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/build/tmp/jar/MANIFEST.MF" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/debug/in/teamkrishna/tilegame/android/AndroidLauncher.class" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/debug/in/teamkrishna/tilegame/android/AndroidLauncher.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/in/teamkrishna/tilegame/MyActor$1.class" afterPath="$PROJECT_DIR$/core/build/classes/main/in/teamkrishna/tilegame/MyActor$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/in/teamkrishna/tilegame/MyActor.class" afterPath="$PROJECT_DIR$/core/build/classes/main/in/teamkrishna/tilegame/MyActor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/in/teamkrishna/tilegame/TileGame.class" afterPath="$PROJECT_DIR$/core/build/classes/main/in/teamkrishna/tilegame/TileGame.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/outputs/apk/android-debug-unaligned.apk" afterPath="$PROJECT_DIR$/android/build/outputs/apk/android-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/outputs/apk/android-debug.apk" afterPath="$PROJECT_DIR$/android/build/outputs/apk/android-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/android/build/intermediates/dex/debug/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/core-1.0-604b392618866aabb6869c9807ac232e9bb38c81.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/core-1.0-604b392618866aabb6869c9807ac232e9bb38c81.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/assets/cover.png" afterPath="$PROJECT_DIR$/android/assets/cover.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/cover.png" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/cover.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/gdx-1.6.5-a843611ff47f30cde42275baa21786675a4554c4.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/gdx-1.6.5-a843611ff47f30cde42275baa21786675a4554c4.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/gdx-backend-android-1.6.5-895cee10fe39ee790abd9abf68e075d9a7dd9653.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/gdx-backend-android-1.6.5-895cee10fe39ee790abd9abf68e075d9a7dd9653.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/android/build/intermediates/res/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/android/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/tile.png" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/tile.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/in/teamkrishna/tilegame/android/AndroidLauncher.java" afterPath="$PROJECT_DIR$/android/src/in/teamkrishna/tilegame/android/AndroidLauncher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/in/teamkrishna/tilegame/MyActor.java" afterPath="$PROJECT_DIR$/core/src/in/teamkrishna/tilegame/MyActor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/in/teamkrishna/tilegame/TileGame.java" afterPath="$PROJECT_DIR$/core/src/in/teamkrishna/tilegame/TileGame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeAssets/debug/merger.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeAssets/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="TileGame.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/build/classes/" />
@@ -35,8 +71,8 @@
       <file leaf-file-name="TileGame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/src/in/teamkrishna/tilegame/TileGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5421903">
-              <caret line="157" column="0" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+            <state vertical-scroll-proportion="1.2387792">
+              <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -46,12 +82,12 @@
         <entry file="file://$PROJECT_DIR$/core/src/in/teamkrishna/tilegame/MyActor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="58" column="79" selection-start-line="58" selection-start-column="79" selection-end-line="58" selection-end-column="79" />
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
               <folding>
-                <element signature="e#1141#1547#0" expanded="true" />
-                <element signature="e#1546#1547#0" expanded="true" />
-                <element signature="e#2043#2044#0" expanded="true" />
-                <element signature="e#2075#2076#0" expanded="true" />
+                <element signature="e#1051#1480#0" expanded="true" />
+                <element signature="e#1479#1480#0" expanded="true" />
+                <element signature="e#1908#1909#0" expanded="true" />
+                <element signature="e#1940#1941#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,7 +105,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="PUSH_TAGS">
-      <GitPushTagMode />
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
     </option>
   </component>
   <component name="GradleLocalSettings">
@@ -2162,6 +2201,7 @@
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/android/build.gradle" />
+        <option value="$PROJECT_DIR$/android/src/in/teamkrishna/tilegame/android/AndroidLauncher.java" />
         <option value="$PROJECT_DIR$/core/src/in/teamkrishna/tilegame/MyActor.java" />
         <option value="$PROJECT_DIR$/core/src/in/teamkrishna/tilegame/TileGame.java" />
       </list>
@@ -2198,10 +2238,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2252,8 +2290,28 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TileGame" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2279,6 +2337,9 @@
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/android/assets" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="in.teamkrishna.tilegame" />
     </key>
@@ -2507,7 +2568,13 @@
       <option name="project" value="LOCAL" />
       <updated>1440957400366</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="scaling factor removed">
+      <created>1440958102476</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1440958102476</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2556,7 +2623,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ClickListener option has been added to images" />
-    <option name="LAST_COMMIT_MESSAGE" value="ClickListener option has been added to images" />
+    <MESSAGE value="scaling factor removed" />
+    <option name="LAST_COMMIT_MESSAGE" value="scaling factor removed" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2564,6 +2632,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/core/src/in/teamkrishna/tilegame/TileGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/in/teamkrishna/tilegame/TileGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/in/teamkrishna/tilegame/TileGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2590,7 +2674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2598,20 +2681,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.3333333">
           <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/assets/badlogic.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.6.5/1aafe92f2aca6a95f6b0590336411cc52b814445/gdx-1.6.5-sources.jar!/com/badlogic/gdx/scenes/scene2d/Actor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7091562">
           <caret line="223" column="19" selection-start-line="223" selection-start-column="19" selection-end-line="223" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2619,6 +2695,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="47" column="11" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/src/in/teamkrishna/tilegame/desktop/DesktopLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10771993">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/in/teamkrishna/tilegame/android/AndroidLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35008976">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -2626,20 +2716,20 @@
     <entry file="file://$PROJECT_DIR$/core/src/in/teamkrishna/tilegame/MyActor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="79" selection-start-line="58" selection-start-column="79" selection-end-line="58" selection-end-column="79" />
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
           <folding>
-            <element signature="e#1141#1547#0" expanded="true" />
-            <element signature="e#1546#1547#0" expanded="true" />
-            <element signature="e#2043#2044#0" expanded="true" />
-            <element signature="e#2075#2076#0" expanded="true" />
+            <element signature="e#1051#1480#0" expanded="true" />
+            <element signature="e#1479#1480#0" expanded="true" />
+            <element signature="e#1908#1909#0" expanded="true" />
+            <element signature="e#1940#1941#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/in/teamkrishna/tilegame/TileGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5421903">
-          <caret line="157" column="0" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+        <state vertical-scroll-proportion="1.2387792">
+          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
           <folding />
         </state>
       </provider>

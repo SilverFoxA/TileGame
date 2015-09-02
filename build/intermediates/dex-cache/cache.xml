@@ -5,7 +5,7 @@
         jar="/Users/Avi/GitHub/TileGame/core/build/libs/core-1.0.jar"
         jumboMode="false"
         revision="23.0.0"
-        sha1="1e04a79e349ef5bc9396eb389ce5b69682775c95">
+        sha1="c159f9e515cf6000dd569745251b52d6e231cfea">
         <dex dex="/Users/Avi/GitHub/TileGame/android/build/intermediates/pre-dexed/debug/core-1.0-604b392618866aabb6869c9807ac232e9bb38c81.jar" />
     </item>
 
