@@ -13,17 +13,18 @@ import com.badlogic.gdx.scenes.scene2d.Touchable;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 
 public class MyActor extends Actor {
-    Sprite sprite;
+    Sprite sprites;
     Sprite sprite1 = new Sprite(new Texture("cover.png"));
     boolean switchbool = false;
 
     public MyActor(Sprite sprite, int x, int y) {
-        this.sprite = sprite;
-        sprite.setPosition(x, y);
+        this.sprites = sprite;
+        sprites.setPosition(x, y);
         //touchable field for the sprite i.e. for our image
-        setBounds(sprite.getX(), sprite.getY(), sprite.getWidth(), sprite.getHeight());
+        setBounds(sprites.getX(), sprites.getY(), sprites.getWidth(), sprites.getHeight());
         setTouchable(Touchable.enabled);
-        sprite1.setPosition(sprite.getX(), sprite.getY());
+        sprite1.setPosition(sprites.getX(), sprites.getY());
+        sprite1.setSize(sprites.getWidth(),sprites.getHeight());
         //make sure to use the "ClickListener()" and within it the "Clicled()"
         addListener(new ClickListener() {
             @Override
@@ -32,9 +33,8 @@ public class MyActor extends Actor {
                 //Simple boolean operation
                 if (!switchbool) {
                     switchbool = true;
-                }
-//                else
-//                    switchbool = false;
+                } else
+                    switchbool = false;
                 super.clicked(event, x, y);
             }
         });
@@ -43,13 +43,13 @@ public class MyActor extends Actor {
     @Override
     protected void positionChanged() {
         //incase the position changes this method is called
-        sprite.setPosition(getX(), getY());
+        sprites.setPosition(getX(), getY());
         super.positionChanged();
     }
 
     @Override
     public void draw(Batch batch, float parentAlpha) {
-        sprite.draw(batch);
+       // sprites.draw(batch);
         if (!switchbool) {
             sprite1.draw(batch);
         }

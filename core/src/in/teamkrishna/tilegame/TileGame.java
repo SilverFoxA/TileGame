@@ -9,24 +9,33 @@ import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.scenes.scene2d.Stage;
-import com.badlogic.gdx.utils.viewport.ScreenViewport;
 
 public class TileGame extends ApplicationAdapter {
     Stage stage;
     SpriteBatch batch;
+    private OrthographicCamera camera;
+    private int iViewPortWidth;
+    private int iViewPortHeight;
+    private Texture img;
 
+    ///note: as the image is getting scaled the cutting factor is not changing
     @Override
     public void create() {
         batch = new SpriteBatch();
-        Texture img = new Texture("elephant.png");
+        img = new Texture("elephant.png");
         //imgcomplete = new Texture("badlogic.png");
-        int iViewPortWidth = img.getWidth();
-        int iViewPortHeight = img.getHeight();
-        OrthographicCamera camera = new OrthographicCamera(iViewPortWidth, iViewPortHeight);
+        iViewPortWidth = img.getWidth();
+        iViewPortHeight = img.getHeight();
+        camera = new OrthographicCamera();
         camera.setToOrtho(false, iViewPortWidth, iViewPortHeight);
-        ScreenViewport viewport = new ScreenViewport();
-        //initialising the stage while passing the viewport as parameter hence it will know it's area or range
-        stage = new Stage(viewport);
+        stage = new Stage();
+    }
+
+    @Override
+    public void resize(int width, int height) {
+        super.resize(width, height);
+        iViewPortWidth = width;
+        iViewPortHeight = height;
         int iRow = 2;
         int iCol = 2;
         int iTileWidth = iViewPortWidth / iCol;
@@ -37,7 +46,7 @@ public class TileGame extends ApplicationAdapter {
             for (int col = 0; col < iCol; col++) {
                 X = col * iTileWidth;
                 Y = (iRow - 1 - row) * iTileHeight;
-                TextureRegion trTemp = new TextureRegion(img, col * iTileWidth, row * iTileHeight, iTileWidth, iTileHeight);
+                TextureRegion trTemp = new TextureRegion(img, X, Y, iTileWidth, iTileHeight);
                 spriteRegion[row][col] = new Sprite(trTemp);
                 MyActor actor = new MyActor(spriteRegion[row][col], X, Y);
                 //setting the actor class to the stage
@@ -52,6 +61,10 @@ public class TileGame extends ApplicationAdapter {
     public void render() {
         Gdx.gl.glClearColor(1, 1, 1, 1);
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
+        batch.setProjectionMatrix(camera.combined);
+        batch.begin();
+        batch.draw(img, 0, 0);
+        batch.end();
         stage.act(Gdx.graphics.getDeltaTime());
         stage.draw();
     }
