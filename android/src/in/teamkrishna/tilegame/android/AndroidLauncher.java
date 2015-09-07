@@ -7,7 +7,7 @@ import android.view.View;
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
 
-import in.teamkrishna.tilegame.TileGame;
+import in.teamkrishna.tilegame.MainGamePage;
 
 public class AndroidLauncher extends AndroidApplication {
 	private View decorView;
@@ -16,7 +16,9 @@ public class AndroidLauncher extends AndroidApplication {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		AndroidApplicationConfiguration config = new AndroidApplicationConfiguration();
-		initialize(new TileGame(), config);
+		//initialize(new TileGame(), config);
+		//initialize(new JoinDots(),config);
+		initialize(new MainGamePage(),config);
 		decorView = getWindow().getDecorView();
 		hideSystemUi(decorView);
 	}
